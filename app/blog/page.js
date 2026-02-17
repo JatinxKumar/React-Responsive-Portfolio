@@ -4,15 +4,22 @@ import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
 
 async function getBlogs() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
+  try {
+    const res = await fetch(
+      `https://dev.to/api/articles?username=${personalData.devUsername}`,
+    );
 
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
+    if (!res.ok) {
+      return [];
+    }
+
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    console.error("getBlogs fetch failed:", err);
+    return [];
   }
-
-  const data = await res.json();
-  return data;
-};
+}
 
 async function page() {
   const blogs = await getBlogs();
@@ -30,15 +37,12 @@ async function page() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
-        {
-          blogs.map((blog, i) => (
-            blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
-          ))
-        }
+        {blogs.map(
+          (blog, i) => blog?.cover_image && <BlogCard blog={blog} key={i} />,
+        )}
       </div>
     </div>
   );
-};
+}
 
 export default page;
