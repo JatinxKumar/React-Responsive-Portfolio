@@ -1,34 +1,32 @@
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Typescript',
-  'React',
-  'Next JS',
-  'Tailwind',
-  'MongoDB',
-  'MySQL',
-  'PostgreSQL',
-  'Git',
-  'AWS',
-  'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
-]
-
-
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Typescript",
+  "React",
+  "Next JS",
+  "Tailwind",
+  "MongoDB",
+  "MySQL",
+  "PostgreSQL",
+  "Git",
+  "AWS",
+  "Bootstrap",
+  "Docker",
+  "Go",
+  "Figma",
+  "Firebase",
+  "MaterialUI",
+  "Nginx",
+  "Strapi",
+];
 
 // AVAILABLE SKILLS
 
-/* 
+/*
   HTML
   CSS
-  JS 
+  JS
   React
   Next JS
   Nuxt JS

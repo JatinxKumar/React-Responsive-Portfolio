@@ -93,45 +93,13 @@
 //   );
 // }
 
-
 import AboutSection from "./components/homepage/about";
-import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
-
-const blogs = [
-  {
-    title: "JavaScript Scope Explained",
-    cover_image: "/blog1.png",
-    published_at: "2024-06-01",
-    public_reactions_count: 12,
-    comments_count: 3,
-    reading_time_minutes: 2,
-    description: "Learn about scope in JavaScript with simple examples.",
-  },
-  {
-    title: "React Hooks in Depth",
-    cover_image: "/blog2.png",
-    published_at: "2024-05-21",
-    public_reactions_count: 18,
-    comments_count: 5,
-    reading_time_minutes: 4,
-    description: "A deep dive into React Hooks and their usage.",
-  },
-  {
-    title: "Understanding CSS Flexbox",
-    cover_image: "/blog3.png",
-    published_at: "2024-04-15",
-    public_reactions_count: 9,
-    comments_count: 2,
-    reading_time_minutes: 3,
-    description: "Master CSS Flexbox layout with practical tips.",
-  },
-];
 
 export default function Home() {
   return (
@@ -142,7 +110,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
-      <Blog blogs={blogs} />
       <ContactSection />
     </div>
   );
