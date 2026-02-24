@@ -1,80 +1,62 @@
 %PDF-1.4
-1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
-endobj
-2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
-endobj
-3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
-endobj
-4 0 obj
-<< /Length 760 >>
-stream
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >> endobj
+4 0 obj << /Length 1350 >> stream
 BT
-/F1 14 Tf
-50 750 Td (Jatin Kumar) Tj
-/F1 10 Tf
-0 -18 Td (Phone: 9914702905 | Email: info.jatink@gmail.com) Tj
+/F1 18 Tf 50 750 Td (Jatin Kumar) Tj
+/F2 10 Tf 0 -18 Td (Phone: 9914702905 | Email: info.jatink@gmail.com) Tj
 0 -14 Td (LinkedIn: https://www.linkedin.com/in/jatinxkumar/ | GitHub: https://github.com/JatinxKumar) Tj
 0 -14 Td (Location: Rajpura, Punjab, India) Tj
 
-0 -28 Td (About Me) Tj
-/F1 10 Tf
-0 -14 Td (Computer Science undergraduate passionate about software development, AI applications, and full-stack systems.) Tj
-0 -14 Td (Strong foundation in Data Structures, Object-Oriented Programming, and modern web technologies with hands-on) Tj
-0 -14 Td (project experience. Focused on building real-world products and preparing for Software Development Engineer roles.) Tj
+0 -30 Td /F1 14 Tf (Profile) Tj
+/F2 10 Tf 0 -14 Td (Computer Science undergraduate focused on full-stack development and AI-integrated applications.) Tj
+0 -14 Td (Strong foundation in Data Structures, OOP, and modern web technologies.) Tj
+0 -14 Td (Passionate about building real-world systems and preparing for Software Engineering roles.) Tj
 
-0 -28 Td (Education) Tj
-/F1 10 Tf
-0 -14 Td (? BTech in Computer Science Engineering ? Chitkara University (2024 ? 2028)) Tj
-0 -14 Td (? Senior Secondary (12th, Science) ? NTC School Rajpura (2022)) Tj
+0 -30 Td /F1 14 Tf (Education) Tj
+/F2 10 Tf 0 -14 Td (* BTech in Computer Science Engineering - Chitkara University (2024 - 2028)) Tj
+0 -14 Td (* Senior Secondary (Science) - NTC School Rajpura (2022)) Tj
 
-0 -28 Td (Technical Skills) Tj
-/F1 10 Tf
-0 -14 Td (? Programming: C, C++, Java, Python, JavaScript) Tj
-0 -14 Td (? Web Development: HTML, CSS, React, Node.js, Full-Stack Development) Tj
-0 -14 Td (? Core Computer Science: Data Structures, Object-Oriented Programming, AI Basics) Tj
-0 -14 Td (? Tools & Practices: Git, GitHub, Agile Methodologies, Prompt Engineering, Postman) Tj
+0 -30 Td /F1 14 Tf (Technical Skills) Tj
+/F2 10 Tf 0 -14 Td (* Languages: C, C++, JavaScript, Python) Tj
+0 -14 Td (* Frontend: React.js, HTML5, CSS3, Tailwind CSS) Tj
+0 -14 Td (* Backend: Node.js, Express.js, REST APIs) Tj
+0 -14 Td (* Database: MongoDB) Tj
+0 -14 Td (* Core CS: Data Structures, OOP, Operating Systems Basics) Tj
+0 -14 Td (* Tools: Git, GitHub, Postman, VS Code) Tj
+0 -14 Td (* Other: IoT (ESP32), AI API Integration) Tj
 
-0 -28 Td (Projects) Tj
-/F1 10 Tf
-0 -14 Td (? React Responsive Portfolio ? React, JavaScript, HTML, CSS. Built a fully responsive personal portfolio website) Tj
-0 -14 Td (  using modular components. Optimized layout and performance for multiple screen sizes.) Tj
-0 -14 Td (? College Club Management System ? HTML, CSS, JavaScript. Developed a web platform to manage college) Tj
-0 -14 Td (  clubs and activities. Designed structured UI for event tracking and usability.) Tj
-0 -14 Td (? AI-Powered Applications Collection ? Python, AI APIs. Built AI chatbot, text-to-voice, and speech) Tj
-0 -14 Td (  recognition features. Explored prompt engineering and AI integration into web apps.) Tj
-0 -14 Td (? Frontend Engineering Mini Projects ? HTML, CSS, JavaScript. Implemented stopwatch, calculator, quiz) Tj
-0 -14 Td (  app, and to-do app. Demonstrates strong DOM manipulation and UI logic.) Tj
+0 -30 Td /F1 14 Tf (Projects) Tj
+/F2 10 Tf 0 -14 Td (* College Club Management System - Full Stack Web Application) Tj
+0 -12 Td (  Platform to manage student clubs, events, and participation with structured data handling.) Tj
+0 -14 Td (* AI-Powered Story Video Generator - AI Application) Tj
+0 -12 Td (  Converts text stories into videos using automated AI processing workflow.) Tj
+0 -14 Td (* D2C E-Commerce Website - Full Stack Platform) Tj
+0 -12 Td (  Online store with product catalog, cart system, and order management features.) Tj
+0 -14 Td (* IoT Number Plate Management System - IoT Solution) Tj
+0 -12 Td (  Vehicle number detection system using ESP32 and sensor integration.) Tj
 
-0 -28 Td (Development Practice) Tj
-/F1 10 Tf
-0 -14 Td (? Multiple repositories demonstrating DSA, OOP, and frontend systems) Tj
-0 -14 Td (? Continuous GitHub project building and version control usage) Tj
-0 -14 Td (? Strong hands-on coding consistency) Tj
+0 -30 Td /F1 14 Tf (Career Focus) Tj
+/F2 10 Tf 0 -14 Td (* Software Development Engineer Roles) Tj
+0 -14 Td (* Backend and Full-Stack Engineering) Tj
+0 -14 Td (* AI-Integrated Systems Development) Tj
 
-0 -28 Td (Career Focus) Tj
-/F1 10 Tf
-0 -14 Td (? Software Development Engineer roles) Tj
-0 -14 Td (? Backend + Full-Stack Engineering) Tj
-0 -14 Td (? AI-integrated applications) Tj
 ET
 endstream
 endobj
-5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
-endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+6 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
 xref
-0 6
-0000000000 65535 f 
-0000000010 00000 n 
-0000000053 00000 n 
-0000000100 00000 n 
-0000001140 00000 n 
-0000001232 00000 n 
-trailer
-<< /Size 6 /Root 1 0 R >>
+0 7
+0000000000 65535 f
+0000000010 00000 n
+0000000053 00000 n
+0000000100 00000 n
+0000001200 00000 n
+0000001320 00000 n
+0000001430 00000 n
+trailer << /Size 7 /Root 1 0 R >>
 startxref
-1296
+1520
 %%EOF
