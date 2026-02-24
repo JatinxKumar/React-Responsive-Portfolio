@@ -1,9 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-// Initialize Resend with API key
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 // HTML email template
 const generateEmailTemplate = (name, senderEmail, userMessage) => `
   <div style="font-family: Arial, sans-serif; color: #333; padding: 20px; background-color: #f4f4f4;">
@@ -46,6 +43,9 @@ export async function POST(request) {
         { status: 500 },
       );
     }
+
+    // Initialize Resend with API key
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
